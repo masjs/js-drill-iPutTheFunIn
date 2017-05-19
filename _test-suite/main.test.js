@@ -18,8 +18,8 @@ describe(`${exerciseName}()`, function() {
     })
 
     it('iPutTheFunIn("us") should return "u~!FUN!~s"', function(){
-      const output = iPutTheFunIn("u~!FUN!~s")
-      return expect(output).to.be.a('string')
+      const output = iPutTheFunIn("us")
+      return expect(output).to.equal('u~!FUN!~s')
     })
 
     it('iPutTheFunIn("me") should return m~!FUN!~e', function(){
